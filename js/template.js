@@ -1,5 +1,5 @@
 //template
-console.log(version);
+
 export const City = {
     Image: "/",
     Title: "À propos",
