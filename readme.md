@@ -15,5 +15,5 @@ Le but est de récupérer le fichier d'initialisation de  données et la templat
     import {Description} from "./app_init.js"
     import {Tamplate} from "./app_init.js"
 ```
-
+[Publication du projet](https://giusmili.github.io/js-template-import/)
 ![AUR license](https://img.shields.io/aur/license/c)

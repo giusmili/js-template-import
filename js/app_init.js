@@ -13,11 +13,11 @@ export const Tamplate = {
     printF() {
         return this.el.innerHTML += `<ul>
                                         <li><img src="${Description.image}" alt="cover" itemprop="image"></li>
-                                        <li><strong><ion-icon name="easel-outline"></ion-icon> Description</strong> : ${Description.description}</li>
-                                        <li><strong><ion-icon name="partly-sunny-outline"></ion-icon> Météo</strong> : ${Description.Météo}</li>
-                                        <li><strong><ion-icon name="business-outline"></ion-icon> Quartier</strong> : ${Description.Quartier}</li>
-                                        <li><strong><ion-icon name="people-circle-outline"></ion-icon> Population</strong> : ${Description.Population}</li>
-                                        <li><strong><ion-icon name="location-outline"></ion-icon> Coordonnées</strong> : ${Description.Coordonnées}</li>
+                                        <li><strong><span aria-hidden="true"><ion-icon name="easel-outline"></ion-icon><span> Description</strong> : ${Description.description}</li>
+                                        <li><strong><span aria-hidden="true"><ion-icon name="partly-sunny-outline"></ion-icon><span> Météo</strong> : ${Description.Météo}</li>
+                                        <li><strong><span aria-hidden="true"><ion-icon name="business-outline"></ion-icon><span> Quartier</strong> : ${Description.Quartier}</li>
+                                        <li><strong><span aria-hidden="true"><ion-icon name="people-circle-outline"></ion-icon><span> Population</strong> : ${Description.Population}</li>
+                                        <li><strong><span aria-hidden="true"><ion-icon name="location-outline"></ion-icon><span> Coordonnées</strong> : ${Description.Coordonnées}</li>
                                         
                                     <ul>`;
     }
