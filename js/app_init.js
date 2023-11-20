@@ -12,7 +12,7 @@ export const Tamplate = {
     el: document.querySelector("section"),
     printF() {
         return this.el.innerHTML += `<ul>
-                                        <li><img src="${Description.image}" alt="cover"></li>
+                                        <li><img src="${Description.image}" alt="cover" itemprop="image"></li>
                                         <li><strong><ion-icon name="easel-outline"></ion-icon> Description</strong> : ${Description.description}</li>
                                         <li><strong><ion-icon name="partly-sunny-outline"></ion-icon> Météo</strong> : ${Description.Météo}</li>
                                         <li><strong><ion-icon name="business-outline"></ion-icon> Quartier</strong> : ${Description.Quartier}</li>
@@ -23,6 +23,7 @@ export const Tamplate = {
     }
 };
 
+export const msg = "Hello New York!!!";
 /* New York est une ville composée de 5 arrondissements à l'embouchure du fleuve Hudson et de l'océan Atlantique. En son centre se trouve Manhattan, un arrondissement densément peuplé faisant partie des principaux centres commerciaux, financiers et culturels du monde. Ses sites incontournables comprennent des gratte-ciel comme l'Empire State Building et l'immense Central Park. Le théâtre de Broadway est situé sur Times Square. ― Google
 Météo : 6°C, vent O à 6 km/h, 68 % d'humidité weather.com
 Quartiers : Harlem, Upper East Side, West Village, Flushing, SoHo, PLUS
