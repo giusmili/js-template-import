@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="New York city...">
+    <meta property="og:title" content="Projet Bachlors">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://giusmili.github.io/js-template-import">
+    <meta property="og:image" content="https://giusmili.github.io/js-template-import/asset/cover.jpg">
+    <meta property="og:description" content="Notre site web pour notre projet bachelor">
+    <!-- twitter card -->
+    <meta name="twitter:card" content="Bachelors">
+	<meta property="twitter:domain" content="giusmili.github.io">
+	<meta property="twitter:url" content="https://giusmili.github.io/js-template-import/">
+	<meta name="twitter:title" content="Portfolio">
+	<meta name="twitter:description" content="Notre site web pour notre projet bachelor">
+	<meta name="twitter:image" content="https://giusmili.github.io/js-template-import/asset/cover.jpg">
     <title>Ville de New York</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -13,25 +25,30 @@
     <link rel="stylesheet" href="./css/main.css">
     
 </head>
-<body>
-    <header>
+<body itemscope itemtype="https://schema.org/WebPage">
+    <header itemprop="name">
         <h1>
-            <ion-icon name="logo-octocat"></ion-icon> Ville de New York
+            <span aria-hidden="true">
+                <ion-icon name="logo-octocat"></ion-icon>
+            </span> Ville de New York City
         </h1>
     </header>
     <main>
-        <section>
-            <h2><ion-icon name="bulb-outline"></ion-icon> A propos</h2>
-            <!--  template -->
+        <section itemprop="name">
+            <h2><span aria-hidden="true">
+                <ion-icon name="bulb-outline"></ion-icon>
+            </span> A propos</h2>
+          <ul></ul>
         </section>
     </main>
     <footer>
         <p>
-            <img alt="AUR license" src="https://img.shields.io/aur/license/c">
+            <img alt="AUR license" src="https://img.shields.io/aur/license/c" itemprop="image">
 
         </p>
     </footer>
     <script type="module" src="./js/app.js"></script>
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
