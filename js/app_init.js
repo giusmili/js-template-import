@@ -8,7 +8,7 @@ export const City = {
     Coordonnées: `40° 42′ 51″ nord, 74° 00′ 21″ ouest `
     //icone
 };const Icon = {
-    Description: `<span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span>`,
+    Description: `<span aria-hidden="true"></span>`,
     Météo: `<span aria-hidden="true"><ion-icon name="cloud-outline"></ion-icon></span>`,
     Quartier: `<span aria-hidden="true"><ion-icon name="logo-discord"></ion-icon></span>`,
     Population: `<span aria-hidden="true"><ion-icon name="people-circle-outline"></ion-icon></span>`,

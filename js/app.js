@@ -6,6 +6,10 @@ import { Template } from "./app_init.js";
 document.addEventListener("DOMContentLoaded", e => {
 
     console.log(e.target);
+    let elements = document.createElement("p");
+    let target = document.querySelector("section");
+    target.appendChild(elements);
+
     Template.printF();
 
     /* console.log(msg) */
